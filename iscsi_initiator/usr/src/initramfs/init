@@ -17,7 +17,7 @@ get_name_for_mac() {
         local MAC=$(echo "$1" | tr '[:upper:]' '[:lower:]')
 
         ifconfig -a | grep 'HWaddr' | while read I; do
-                local TEMP_MAC="${I##* }"
+                local TEMP_MAC=$(echo "${I##* }" | tr '[:upper:]' '[:lower:]')
                 if [ -n "$TEMP_MAC" ] && [ "$TEMP_MAC" == "$MAC" ]; then
                         echo "${I%% *}"
                         return
