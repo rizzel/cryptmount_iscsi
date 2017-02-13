@@ -181,7 +181,9 @@ This has to be adapted to the local setup.
 
 #### Configuring the cryptmount_iscsi.py config
 
-The configuration file is divided into the following sections:
+The configuration file is located in `~/.raid.conf`.
+It is created if it does not exist.
+It is divided into the following sections:
 
 ##### base
 
