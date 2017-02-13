@@ -1,0 +1,7 @@
+config array
+        option device /dev/md0
+        option uuid 84585fec:fa9175af:cb27b6e8:a18a5ac0
+
+config array
+        option device /dev/md1
+        option uuid 4d16572f:ab9f32fd:76e8a7a0:40bbc3b6

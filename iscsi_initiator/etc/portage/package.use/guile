@@ -1,0 +1,6 @@
+# required by dev-scheme/guile-2.0.13-r1::gentoo
+# # required by sys-devel/autogen-5.18.4::gentoo
+# # required by net-libs/gnutls-3.3.26::gentoo
+# # required by app-crypt/gnupg-2.1.15::gentoo[gnutls]
+# # required by app-crypt/gnupg (argument)
+dev-libs/boehm-gc threads

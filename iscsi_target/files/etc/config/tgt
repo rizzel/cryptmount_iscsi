@@ -1,0 +1,14 @@
+config target 1
+        option name 'iqn.2017-02.com.example.target:md'
+
+config lun 1_1
+        option device /dev/md0
+        option blocksize 4096
+#       option type passthrough
+#       option type disk
+
+config lun 1_2
+        option device /dev/md1
+        option blocksize 4096
+#       option type passthrough
+#       option type disk
